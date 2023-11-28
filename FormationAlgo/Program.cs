@@ -23,3 +23,18 @@ for (int i = 0; i < 6; i++)
     tableau2[i] = i;
 }
 
+
+// Solution avec saisie utilisateur :
+Console.WriteLine("Veuillez saisir le nombre de cases du tableau : ");
+string saisie = Console.ReadLine();
+int nombreCases = int.Parse(saisie);
+
+int[] tableau3 = new int[nombreCases];
+
+for (int i = 0; i < tableau3.Length; i++)
+{
+    tableau3[i] = i;
+}
+
+Console.WriteLine(string.Join(", ", tableau3));
+
